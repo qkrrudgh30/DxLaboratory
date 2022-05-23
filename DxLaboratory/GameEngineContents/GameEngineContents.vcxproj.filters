@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{e409702e-a5ce-4272-ad7b-36fed5ccd915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{aa455f10-38e8-4d6e-b0ac-89c450feb930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{89ac6661-f74a-41ba-bcb2-59df52d532dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{1e19be54-eb26-4364-8706-3b6dc6ec3a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Play">
+      <UniqueIdentifier>{6e4a3d09-2230-4829-bcbb-f2866f6d3484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Title">
+      <UniqueIdentifier>{8d24c872-6a53-428b-b788-ea53b88391dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ContentsCore.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevel.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Actors\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>Actors\Title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ContentsCore.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevel.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Actors\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>Actors\Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
